@@ -1,63 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PEQUEÑO MUNDO</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/Style.css">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/stylos.css">
+
 </head>
+
 <body>
-    <header class="menu-navegacion"> 
-        <header class="barraDeMenu">
-            <h1 class="bm-title">PEQUEÑO MUNDO</h1>
-            <nav>
-                <ul class="menuList"> 
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./empresa.html">Empresa</a></li>
-                    <li><a href="./pages/productos-babys.html">Babys</a></li>
-                    <li><a href="./pages/productos-kids.html">Kids</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+
+    <header class="barraDeMenu">
+        <img class="logo" src="../imagenes/logo-pequeno-mundo.jpeg" alt="logo empresa">
+        <h1 class="bm-title">PEQUEÑO MUNDO</h1>
+        <nav>
+            <ul class="menuList">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./empresa.html">Empresa</a></li>
+                <li><a href="./productos-babys.html">Babys</a></li>
+                <li><a href="./productos-kids.html">Kids</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
+
+
     <main>
-        <form>
+        <form class="formulario">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Direccion de E-mail</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">nunca comparta su contraseña con nadie.</div>
+                <label for="exampleInputEmail1" class="form-label">Direccion de E-mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">nunca comparta su contraseña con nadie.</div>
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
             <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Registrarme</label>
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Registrarme</label>
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
-   
-       <div class="ubicacion">
-        <h3>Te esperamos</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.8605079560766!2d-58.986827025708195!3d-27.442457676335444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450c5ec8373fd7%3A0x4b408193712c66f2!2sCatamarca%20431%2C%20H3500AOI%20Resistencia%2C%20Chaco!5e0!3m2!1sen!2sar!4v1696207304838!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci consectetur ratione sed magni, voluptatum quas est ad iure fugit ullam omnis distinctio possimus, praesentium, voluptate dolorum! Quia magnam saepe modi.</p>
+        </form>
 
-       </div>
-       
-  </main>
+        <div class="ubicacion">
+            <h3>Te esperamos</h3>
+            <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.8605079560766!2d-58.986827025708195!3d-27.442457676335444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450c5ec8373fd7%3A0x4b408193712c66f2!2sCatamarca%20431%2C%20H3500AOI%20Resistencia%2C%20Chaco!5e0!3m2!1sen!2sar!4v1696207304838!5m2!1sen!2sar"
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p class="text-derecha">¡Descubre el rincón mágico de la moda infantil! Encuéntranos en el mapa y sumérgete en un mundo de
+                diversión y estilo para los más pequeños. Nuestra tienda de ropa para niños está estratégicamente
+                ubicada para que tu próxima aventura de compras sea fácil y emocionante. <br>
+
+                Dirección: Catamarca 431, Resistencia <br>
+
+                Explora la alegría de vestir a tus pequeños con las tendencias más lindas y cómodas. En nuestra tienda
+                física, no solo ofrecemos moda, sino sonrisas, calidad y un toque de magia en cada prenda. ¿Listo para
+                hacer que la moda de tus pequeños sea inolvidable? ¡Encuentra nuestro lugar en el mapa y haz que la moda
+                infantil sea una experiencia única!</p>
+        </div>
+
+    </main>
 
 
-	<footer id="footer" class="pie">
-		<span>Code & Design by @federico </span>
-	</footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <footer id="footer" class="pie">
+        <span>Code & Design by @federico </span>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
 </body>
 

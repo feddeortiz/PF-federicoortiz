@@ -1,0 +1,339 @@
+*{ font-family: 'Young Serif', serif;
+   font-size: 14pt;
+   padding: 0;
+   margin: 0;}
+
+body{background-color: #ffcccc;
+    
+}   
+
+.logo{
+    display: flex;
+    width: 3em;
+    border-radius: 100%;
+    
+}
+.barraDeMenu{
+    background-color: #e28596;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+   
+}
+h1{
+    font-size: small;
+}
+
+.bm-title{
+    display: flex;
+    margin: 30px;
+    color: white;
+}
+.menuList{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+
+}
+.menuList li{
+    list-style: none;
+}
+.menuList li a{
+    text-decoration: none;
+    color: white;
+}
+.primerContenedor{
+    background-image: ;
+    background-position: center;
+
+}
+.primerContenedor h2{
+ font-size: 2em;
+ color: rgb(243, 200, 200);
+}
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria h3{
+    padding: 30px;
+    text-align: center;
+    font-size: 2em;
+}
+.galeria--cont{
+    display: flex;
+    width: 1040px;
+    flex-wrap: wrap;
+}
+.item-img{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    padding: 10px;
+
+}
+.item-img img{
+    width: 100%;
+
+}
+.us-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+
+}
+.us-article{
+    width: 600px;
+    line-height: 40px;
+    text-align: justify;
+}
+.us-article h4{
+    text-align: center;
+    font-size: 2em;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px;
+}
+.img-redes{
+    width: 100px;
+    height: 90px;
+    overflow: hidden;
+    
+
+}
+.img-redes img{
+    width: 100%;
+
+}
+.pie{
+    background-color: #e28596;
+    height: 3em;
+    text-align: center;
+    
+    color: white;}
+
+ 
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+/*(escritorio) */
+@media (max-width: 1200px) {
+    .bm-title {
+        font-size: 20px;
+    }
+}
+
+/* (tablets ) */
+@media (max-width: 992px) {
+    .barraDeMenu{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 64px;
+        padding-top: 71px;
+        height: 160px;
+    }
+    .menuList {
+        text-align: center;
+        margin-top: 10px;
+       ;
+    }
+
+    .bm-title {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .galeria--cont {
+        padding: 10px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .item-img {
+        margin: 5px;
+    }
+}
+
+/* (móviles) */
+@media (max-width: 576px) {
+    .barraDeMenu{
+        display: inline-block;
+        padding-top: 0;
+        position: relative;
+        height: auto;
+    }
+    .menuList{
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;  
+        display: flex;
+    }
+    
+    .menuList li {
+        display: block;
+        margin-bottom: 10px;
+      
+        
+    }
+
+    .galeria {
+        padding: 10px;
+    }
+
+    .us-content {
+        padding: 10px;
+    }
+
+    .redes {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* pagina empresa */
+.bm-title {
+    font-family: ;
+    margin: 0;
+}
+
+.Nosotros {
+    text-align: center;
+    font-size: 50px;
+}
+
+.card {
+    margin: 20px;
+    padding: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* pagina kids */
+.productos {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    text-align: center;
+    background-color: #ffffffb3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-caption h3 {
+    font-size: 24px;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+}
+
+.carousel-caption a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* pagina babys */
+.productos {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    text-align: center;
+    background-color: #ffffffb3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-caption h3 {
+    font-size: 24px;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+}
+
+.carousel-caption a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/*contacto*/
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.text-derecha{
+    text-align: center;
+}
+.mapa {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+.ubicacion {
+    margin-top: 20px;
+}
+@media (min-width: 768px) {
+    .text-derecha{
+        text-align: center;
+    }
+    .mapa {
+        float: left;
+        width: 50%;
+        margin-right: 20px;
+    }
+
+    .ubicacion {
+        overflow: hidden;
+    }
+}
